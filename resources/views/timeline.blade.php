@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline</title>
 </head>
-
+<body>
     <h3>Hello, {{Auth::user()->name}}!</h3>
 
     <form action="{{route('createPost')}}" method="GET">
